@@ -8,8 +8,8 @@ from flask import Flask, request
 
 application = Flask(__name__)
 app = application
-PAT = 'replace_your_own_PAT_here'
-VERIFICATION_TOKEN = 'replace_your_own_token'
+PAT = 'EAAaGloODjtgBAB4zNMMGNVcZBhBZCbDaPXwfo8P2o6semmNFhVCpwpZAsZBJNBTNaqIsLtxPNaqTxUO9mnGUsREIOPzPBzmPngrB61kcwPMK8ZAY7VlN42YkDbG0UZAQ2uXuWq7G21MDTRL7MGaVnTfFGNLhlNrMmCqnbZBsdbUKgZDZD'
+VERIFICATION_TOKEN = 'Gemy'
 
 @app.route('/', methods=['GET'])
 def handle_verification():
