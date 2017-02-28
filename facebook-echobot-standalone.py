@@ -5,6 +5,8 @@ Standalone version
 
 import sys, json, traceback, requests
 from flask import Flask, request
+from pymongo
+client = MongoClient('mongodb://gemy1996:gemy1234@ds161179.mlab.com:61179/heizenbug')
 
 application = Flask(__name__)
 app = application
@@ -43,7 +45,7 @@ def handle_messages():
 
 def processIncoming(user_id, message):
     if message['type'] == 'text':
-        message_text = message['data']
+        message_text =  "gemy s tkkhldsjg"
         return message_text
 
     elif message['type'] == 'location':
